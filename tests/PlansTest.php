@@ -7,7 +7,7 @@ use Afbora\IyzipayLaravel\IyzipayLaravelFacade as IyzipayLaravel;
 class PlansTest extends TestCase
 {
 
-    public function setUp()
+    public function setUp() :void
     {
         parent::setUp();
 
